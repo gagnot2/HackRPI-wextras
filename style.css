@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; /* Remove top padding */
+    background-color: transparent; /* Make the header background transparent */
+    color: white; /* Text color */
+}
+
+h1 {
+    text-align: center;  
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+nav {
+    padding-right: 20px; /* Adjust the value as needed */
+}
+
+.nav-buttons {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+    
+}
+
+.nav-buttons a {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: -3.5px;
+    padding: 10px 20px;
+    border-right: 1px solid #537eff;
+    border-left: 1px solid #537eff;
+    color: #537eff; /* Text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 18px;
+    
+}
+
+.nav-buttons a:hover {
+    background-color: #EAF139; /* Button color on hover */
+}
