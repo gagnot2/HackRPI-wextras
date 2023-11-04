@@ -24,13 +24,24 @@ h1, h2, h3, h4 {
 }
 
 main {
-    padding: 0 7%;
+    padding: 0 10%;
 }
 
 h1 {
     text-align: center;  
     margin-top: 20px;
+    letter-spacing: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100px;
+    display:block; 
+    margin: auto;
 }
+
+h1 a {
+    text-decoration: none;
+    color: #4b5e42;
+}
+
 
 
 nav { padding-right: 20px; }
@@ -55,11 +66,22 @@ nav a:hover {
     color: #a38c81;
 }
 
+img {
+    max-width: 90%;
+    display:block; 
+    margin: auto;
+}
+
+h3 {
+    margin-left: 20px;
+}
 
 #active {
     color: #5c7451;
 }
-
+.banner {
+    text-align: center;
+}
 
 
 .button {
@@ -80,6 +102,9 @@ nav a:hover {
     background-color: #8aa6846a;
 }
 
+.buffer {
+    height: 25px;
+}
 
 footer {
     background-color: #8aa6846a;
