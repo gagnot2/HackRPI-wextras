@@ -12,12 +12,22 @@ header {
     font-family: 'Libre Baskerville', serif;
     justify-content: space-between;
     align-items: center;
-    padding: 0; /* Remove top padding */
     background-color: transparent; 
+    padding: 2% 5%;
 }
+
 h1, h2, h3, h4 {
     color: #4b5e42;
     font-family: 'Libre Baskerville', serif;
+}
+
+.logo img {
+    max-width: 90px;
+    margin: 15px; /* Add margin to create space around the logo */
+}
+
+main {
+    padding: 2% 5%;
 }
 
 p {
@@ -33,36 +43,25 @@ nav {
     padding-right: 20px; /* Adjust the value as needed */
 }
 
-.nav-buttons {
-    text-align: center;
-    padding: 20px;
-    padding-bottom: 0;
-    
-}
-
-.nav-buttons a {
-    display: inline-block;
-    text-transform: uppercase;
-    margin: -3.5px;
-    padding: 10px 20px;
-    text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
-    font-size: 18px;
-    
-}
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
-
 nav ul li {
     display: inline;
     margin-right: 20px;
-    
 }
 
+nav a {
+    text-decoration: none;
+    color: #4f4744;
+}
+nav a:hover {
+    color: #5c7451;
+}
 
 
 footer {
@@ -70,4 +69,5 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+    
 }
