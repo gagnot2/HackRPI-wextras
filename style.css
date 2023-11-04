@@ -1,0 +1,62 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(224, 220, 214);
+}
+html, body {
+    margin: 0;
+    padding: 2% 5%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; /* Remove top padding */
+    background-color: transparent; 
+}
+
+h1 {
+    text-align: center;  
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav {
+    padding-right: 20px; /* Adjust the value as needed */
+}
+
+.nav-buttons {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+    
+}
+
+.nav-buttons a {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: -3.5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 18px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
