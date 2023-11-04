@@ -1,20 +1,29 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(224, 220, 214);
+}
+html, body {
+    margin: 0;
+    padding: 2% 5%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 header {
     display: flex;
     font-family: 'Libre Baskerville', serif;
     justify-content: space-between;
     align-items: center;
     padding: 0; /* Remove top padding */
-    background-color: transparent; /* Make the header background transparent */
-    color: white; /* Text color */
+    background-color: transparent; 
 }
 
 h1 {
     text-align: center;  
+    font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 30px; /* Adjust the font size as needed */
 }
 
 nav {
@@ -33,15 +42,21 @@ nav {
     text-transform: uppercase;
     margin: -3.5px;
     padding: 10px 20px;
-    border-right: 1px solid #537eff;
-    border-left: 1px solid #537eff;
-    color: #537eff; /* Text color */
     text-decoration: none;
     transition: background-color 0.3s ease-in-out;
     font-size: 18px;
     
 }
 
-.nav-buttons a:hover {
-    background-color: #EAF139; /* Button color on hover */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
