@@ -587,6 +587,7 @@ var simplemaps_usmap_mapdata={
         "NJ",
         "DE",
         "MD",
+        "DC"
       ],
       name: "North East",
       color: "#9dabb3",
@@ -610,7 +611,6 @@ var simplemaps_usmap_mapdata={
         "VA",
         "NC",
         "SC",
-        "DC"
       ],
       name: "South",
       color: "#c3d1a7",
