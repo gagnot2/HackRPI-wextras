@@ -24,7 +24,7 @@ var simplemaps_usmap_mapdata={
     location_url: "",
     location_size: 25,
     location_type: "square",
-    location_image_source: "frog.png",
+    location_image_source: "../images/him.jpg",
     location_border_color: "#FFFFFF",
     location_border: 2,
     location_hover_border: 2.5,
