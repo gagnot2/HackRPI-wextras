@@ -587,7 +587,6 @@ var simplemaps_usmap_mapdata={
         "NJ",
         "DE",
         "MD",
-        "DC"
       ],
       name: "North East",
       color: "#9dabb3",
@@ -599,8 +598,21 @@ var simplemaps_usmap_mapdata={
         "NM",
         "TX",
         "OK",
+        "AR",
+        "LA",
+        "MS",
+        "AL",
+        "GA",
+        "FL",
+        "TN",
+        "KY",
+        "WV",
+        "VA",
+        "NC",
+        "SC",
+        "DC"
       ],
-      name: "South West",
+      name: "South",
       color: "#c3d1a7",
       hover_color: "#5c7451"
     }
