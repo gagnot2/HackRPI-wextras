@@ -72,21 +72,21 @@ var simplemaps_usmap_mapdata={
   state_specific: {
     HI: {
       name: "Hawaii",
-      description: "Bermudagrass,\nZoysiagrass,\nSt. Augustine grass,\nSeashore Paspalum,\nCentipedegrass"
+      description: "Bermudagrass, Zoysiagrass, St. Augustine grass, Seashore Paspalum, Centipedegrass"
     },
     AK: {
       name: "Alaska"
     },
     FL: {
       name: "Florida",
-      description: "Perennial Peanut,\nSunshine Mimosa,\nFrogfruit,\nBasketgrass,\nAsiatic Jasmine,\nTwinflower,\nMultispecies Lawns"
+      description: "Perennial Peanut, Sunshine Mimosa, Frogfruit, Basketgrass, Asiatic Jasmine, Twinflower, Multispecies Lawns"
     },
     NH: {
       name: "New Hampshire"
     },
     VT: {
       name: "Vermont",
-      description: "Synthetic Grass,\nOrnamental Grass,\nBlack Scallop Bugleweed,\nRoman Chamomile,\nSweet Woodruff,\nRed Creeping Thyme,"
+      description: "Synthetic Grass, Ornamental Grass, Black Scallop Bugleweed, Roman Chamomile, Sweet Woodruff, Red Creeping Thyme,"
     },
     ME: {
       name: "Maine"
@@ -96,12 +96,12 @@ var simplemaps_usmap_mapdata={
     },
     NY: {
       name: "New York",
-      description: "Clover,\nMoss,\nCreeping Jenny,\nFescue,\nPrairie Meadow,\nSweet Woodruff,\nMondo Grass,\nBuffalograss,\nSedge",
+      description: "Clover, Moss, Creeping Jenny, Fescue, Prairie Meadow, Sweet Woodruff, Mondo Grass, Buffalograss, Sedge",
       url: "https://www.gardeningknowhow.com/garden-how-to/garden-by-region/northeast/northeast-lawn-alternatives.htm#:~:text=Shade%20alternatives%20include%20European%20ginger,when%20replacing%20lawn%20as%20well."
     },
     PA: {
       name: "Pennsylvania",
-      description: "Creeping Phlox,\nPennsylvania Sedge,\nCreeping Thyme,\nHeuchera Americana,\nMoss,\nBarren Strawberry,\nBuffalograss,\nClover,\nDryopteris Cristata,\nChristmas Fern,\nHeartleaf Foamflower,"
+      description: "Creeping Phlox, Pennsylvania Sedge, Creeping Thyme, Heuchera Americana, Moss, Barren Strawberry, Buffalograss, Clover, Dryopteris Cristata, Christmas Fern, Heartleaf Foamflower,"
     },
     NJ: {
       name: "New Jersey"
@@ -111,7 +111,7 @@ var simplemaps_usmap_mapdata={
     },
     MD: {
       name: "Maryland",
-      description: "Groundcovers,\nPerennial Evergreen Ground Covers,\nWild Ginger,\nAlumroot,\nGreen and Gold"
+      description: "Groundcovers, Perennial Evergreen Ground Covers, Wild Ginger, Alumroot, Green and Gold"
     },
     VA: {
       name: "Virginia"
@@ -142,7 +142,7 @@ var simplemaps_usmap_mapdata={
     },
     MA: {
       name: "Massachusetts",
-      description: "White Clover,\nBlack Medic,\nBirdsfoot Trefoil,\nPennsylvania Sedge,\nSeersucker Sedge,\nSpreading Sedge,\nLiriope Spicata,\nLiriope Muscari,"
+      description: "White Clover, Black Medic, Birdsfoot Trefoil, Pennsylvania Sedge, Seersucker Sedge, Spreading Sedge, Liriope Spicata, Liriope Muscari,"
     },
     TN: {
       name: "Tennessee"
@@ -152,7 +152,7 @@ var simplemaps_usmap_mapdata={
     },
     MO: {
       name: "Missouri",
-      description: "Bristle Leaf Sedge,\nPennsylvania Sedge,\nGreen Sheen',\nCreeping Lily Turf,\nCreeping Phlox,\nMoss Phlox,\nSedums"
+      description: "Bristle Leaf Sedge, Pennsylvania Sedge, Green Sheen', Creeping Lily Turf, Creeping Phlox, Moss Phlox, Sedums"
     },
     GA: {
       name: "Georgia"
@@ -183,7 +183,8 @@ var simplemaps_usmap_mapdata={
     },
     TX: {
       name: "Texas",
-      description: "Lantana,\nWooly Stemodia,\nLive Oak"
+      description: "Lantana, Wooly Stemodia, Live Oak",
+      url: "https://blog.moonvalleynurseries.com/texas/replacing-my-texas-lawn-with-native-plants"
     },
     NM: {
       name: "New Mexico"
@@ -202,7 +203,7 @@ var simplemaps_usmap_mapdata={
     },
     WY: {
       name: "Wyoming",
-      description: "Kentucky Bluegrass,\nTurf-type tall fescue,\nRhizomatous Tall Fescue,\nPerennial Ryegrass,\nFine Fescues,\nBuffalograss"
+      description: "Kentucky Bluegrass, Turf-type tall fescue, Rhizomatous Tall Fescue, Perennial Ryegrass, Fine Fescues, Buffalograss"
     },
     MT: {
       name: "Montana"
@@ -221,15 +222,15 @@ var simplemaps_usmap_mapdata={
     },
     OR: {
       name: "Oregon",
-      description: "Dwarf Perennial Ryegrass,\nKentucky Bluegrass,\nClover,\nYarrow,\nEnglish Lawn Daisies,\nRoman Chamomile,"
+      description: "Dwarf Perennial Ryegrass, Kentucky Bluegrass, Clover, Yarrow, English Lawn Daisies, Roman Chamomile,"
     },
     WA: {
       name: "Washington",
-      description: "Clover,\nCreeping Thyme,\nMosses,\nWildflower Lawns,\nCreeping Wire Vine,"
+      description: "Clover, Creeping Thyme, Mosses, Wildflower Lawns, Creeping Wire Vine,"
     },
     CA: {
       name: "California",
-      description: "Lippia,\nCreeping Wildrye,\nSalt Heliotrope,\nSeaside Heliotrope"
+      description: "Lippia, Creeping Wildrye, Salt Heliotrope, Seaside Heliotrope"
     },
     MI: {
       name: "Michigan"
@@ -591,6 +592,17 @@ var simplemaps_usmap_mapdata={
       name: "North East",
       color: "#9dabb3",
       hover_color: "#4b755b"
+    },
+    "1": {
+      states: [
+        "AZ",
+        "NM",
+        "TX",
+        "OK",
+      ],
+      name: "South West",
+      color: "#c3d1a7",
+      hover_color: "#5c7451"
     }
   }
 };
