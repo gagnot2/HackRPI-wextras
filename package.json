@@ -1,0 +1,36 @@
+{
+  "name": "rpi-x-hackathon",
+  "version": "1.0.0",
+  "description": "the -Wextras!",
+  "authors": "Trinity, Ethan, Oliver, Jacob",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+
+  "build": {
+    "appId": "RPI X Wextra's!",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "license": "license.md",
+      "allowToChangeInstallationDirectory": false
+    }
+  },
+
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-squirrel-startup": "1.0.0"
+  },
+  "devDependencies": {
+    "electron": "27.0.3",
+    "electron-builder": "^24.6.4"
+  }
+}
