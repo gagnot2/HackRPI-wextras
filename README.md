@@ -11,3 +11,4 @@ Code References:
 Image Credits:
 - Lawn overhead image: Tina Nord, Pexels
 - Wild grass image:  Kristina Paukshtite, Pexels
+- Moss photo: Nejc Košir, Pexels
