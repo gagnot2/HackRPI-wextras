@@ -96,7 +96,8 @@ var simplemaps_usmap_mapdata={
     },
     NY: {
       name: "New York",
-      description: "Clover,\nMoss,\nCreeping Jenny,\nFescue,\nPrairie Meadow,\nSweet Woodruff,\nMondo Grass,\nBuffalograss,\nSedge"
+      description: "Clover,\nMoss,\nCreeping Jenny,\nFescue,\nPrairie Meadow,\nSweet Woodruff,\nMondo Grass,\nBuffalograss,\nSedge",
+      url: "https://www.gardeningknowhow.com/garden-how-to/garden-by-region/northeast/northeast-lawn-alternatives.htm#:~:text=Shade%20alternatives%20include%20European%20ginger,when%20replacing%20lawn%20as%20well."
     },
     PA: {
       name: "Pennsylvania",
@@ -571,5 +572,25 @@ var simplemaps_usmap_mapdata={
   legend: {
     entries: []
   },
-  regions: {}
+  regions: {
+    "0": {
+      states: [
+        "NY",
+        "PA",
+        "ME",
+        "VT",
+        "NH",
+        "MA",
+        "RI",
+        "CT",
+        "NJ",
+        "DE",
+        "MD",
+        "DC"
+      ],
+      name: "North East",
+      color: "#9dabb3",
+      hover_color: "#4b755b"
+    }
+  }
 };
